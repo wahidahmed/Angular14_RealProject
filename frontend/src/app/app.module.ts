@@ -7,9 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 import { AddContactComponent } from './addContact/addContact.component';
+import { AccessRoutingModule } from './access/access-routing.module';
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
       HomeComponent,
       ContactComponent,
@@ -18,6 +19,7 @@ import { AddContactComponent } from './addContact/addContact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AccessRoutingModule,
     LoginComponent //because it is a stand alone component
   ],
   providers: [],
