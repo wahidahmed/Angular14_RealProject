@@ -10,6 +10,7 @@ import { AddContactComponent } from './addContact/addContact.component';
 //import { AccessRoutingModule } from './access/access-routing.module';
 import { Error_notFoundComponent } from './error_notFound/error_notFound.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
     //AccessRoutingModule,
     //LoginComponent //because it is a stand alone component
   ],
