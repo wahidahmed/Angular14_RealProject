@@ -11,6 +11,7 @@ import { AddContactComponent } from './addContact/addContact.component';
 import { Error_notFoundComponent } from './error_notFound/error_notFound.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
     //AccessRoutingModule,
     //LoginComponent //because it is a stand alone component
   ],
