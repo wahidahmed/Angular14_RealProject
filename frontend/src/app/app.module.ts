@@ -4,23 +4,25 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
+//import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 import { AddContactComponent } from './addContact/addContact.component';
-import { AccessRoutingModule } from './access/access-routing.module';
+//import { AccessRoutingModule } from './access/access-routing.module';
+import { Error_notFoundComponent } from './error_notFound/error_notFound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
       HomeComponent,
       ContactComponent,
-      AddContactComponent
+      AddContactComponent,
+      Error_notFoundComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AccessRoutingModule,
-    LoginComponent //because it is a stand alone component
+    //AccessRoutingModule,
+    //LoginComponent //because it is a stand alone component
   ],
   providers: [],
   bootstrap: [AppComponent]
